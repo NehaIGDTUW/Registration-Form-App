@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="38dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFF8CB"
+        app:cardCornerRadius="6dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_summary"
+            android:layout_margin="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            tools:text = "Sample text.Lets make this a very huge message so that this takes up a lot of screen. just want to check if what i have planned is going well or not."/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_message"
+        android:id="@+id/button_message"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_email"
+        android:id="@+id/button_email"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_dial_number"
+        android:id="@+id/button_dial_number"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

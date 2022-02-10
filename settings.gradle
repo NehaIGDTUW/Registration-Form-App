@@ -1,0 +1,2 @@
+rootProject.name = "Registration Form App"
+include ':app'
